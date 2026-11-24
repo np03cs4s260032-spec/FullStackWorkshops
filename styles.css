@@ -1,0 +1,24 @@
+#nav-list{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+:root{
+	--primary-bg-color: lightgreen;
+}
+.note{
+	--note-bg: yellow;
+	background-color: var(--note-bg);
+}
+
+body{
+	background-color: var(--primary-bg-color);
+}
+img{
+	width: 400px;
+	height: auto;
+}
